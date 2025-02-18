@@ -1,22 +1,22 @@
 const wishes = [
     "🌟 Dear Vijaya... 🌟",
-    "On this special day... ✨",
-    "I want to tell you something from my heart...",
-    "You bring so much joy to everyone around you! 🎉",
-    "Your smile brightens up even the darkest days! 💫",
-    "Your kindness makes this world a better place! 💖",
-    "Happy Birthday! 🎂"
+    // "On this special day... ✨",
+    // "I want to tell you something from my heart...",
+    // "You bring so much joy to everyone around you! 🎉",
+    // "Your smile brightens up even the darkest days! 💫",
+    // "Your kindness makes this world a better place! 💖",
+    // "Happy Birthday! 🎂"
   ];
   const bestFriendMessages = [
     "Yaara teri yaari ko maine toh khuda mana 🌟",
-    "Teri dosti ne mujhe jeena sikhaya hai ✨",
-    "Tere jaisa yaar kaha, kaha aisa yarana 💖",
-    "Dosti ki hai, nibhani to padegi",
-    "Koi dhundta hai kisi ko,",
-    "Koi kisi ka sahara hai 🌟",
-    "You're not just my friend Vijaya,",
-    "You're my favorite person to annoy! 😋",
-    "Let's be Forever and Endever! 🤗"
+    // "Teri dosti ne mujhe jeena sikhaya hai ✨",
+    // "Tere jaisa yaar kaha, kaha aisa yarana 💖",
+    // "Dosti ki hai, nibhani to padegi",
+    // "Koi dhundta hai kisi ko,",
+    // "Koi kisi ka sahara hai 🌟",
+    // "You're not just my friend Vijaya,",
+    // "You're my favorite person to annoy! 😋",
+    // "Let's be Forever and Endever! 🤗"
   ];
   
   function createStars() {
@@ -133,7 +133,7 @@ const wishes = [
       }
 
       document.querySelectorAll(".mySwiper").forEach((btn) => {
-        btn.style.opacity = 1;
+        btn.style.display = "block";
       });
   }
 
