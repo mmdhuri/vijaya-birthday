@@ -5,18 +5,21 @@ const wishes = [
     "You bring so much joy to everyone around you! 🎉",
     "Your smile brightens up even the darkest days! 💫",
     "Your kindness makes this world a better place! 💖",
+    "Wish you many many happy returns of the day🎂🎉💖",
+    "I always want smile on your face 😊",
     "Happy Birthday! 🎂"
   ];
   const bestFriendMessages = [
-    "Yaara teri yaari ko maine toh khuda mana 🌟",
-    "Teri dosti ne mujhe jeena sikhaya hai ✨",
-    "Tere jaisa yaar kaha, kaha aisa yarana 💖",
-    "Dosti ki hai, nibhani to padegi",
+    "Are mad jara swatacha pn vichar kar 🌟",
+    "Tuzya shivay mazya life madhe koni nhi ahe future madhe ✨",
+    "You are the most most most...n person in my life 💖",
+    "Ye jo mein kar raha hoon woh sirf tere liye hai bayko 😘",
     "Koi dhundta hai kisi ko,",
     "Koi kisi ka sahara hai 🌟",
     "You're not just my friend Vijaya,",
     "You're my favorite person to annoy! 😋",
-    "Let's be Forever and Endever! 🤗"
+    "Let's be Forever and Endever! 🤗",
+    "I love you so much 😍💕 Forever and Endever! 🤗",
   ];
   
   function createStars() {
@@ -36,7 +39,7 @@ const wishes = [
   }
   
   function createEmoji() {
-    const emojis = ["💖", "⭐", "✨", "🎉", "🎂", "🎈"];
+    const emojis = ["💖", "⭐", "✨", "🎉", "🎂", "🎁"];
     const emoji = document.createElement("div");
     emoji.className = "emoji";
     emoji.textContent = emojis[Math.floor(Math.random() * emojis.length)];
@@ -141,7 +144,7 @@ const wishes = [
     document.getElementById("startBtn").style.display = "none";
     document.getElementById("wishesContainer").classList.remove("hidden");
     const bgAudio = document.getElementById("bgMusic");
-    bgAudio.muted = isMuted;
+    bgAudio.muted = true;
     try {
       const playPromise = bgAudio.play();
       if (playPromise !== undefined) {
